@@ -1,5 +1,5 @@
 FROM node:16-alpine AS development
-ENV NODE_ENV development
+ENV NODE_ENV production
 
 WORKDIR /ambassfront
 
